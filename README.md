@@ -4,5 +4,5 @@
 flatcc -a Car.fbs
 
 ## Compile
-gcc subscriber.c -o ../bin/subscriber -lzmq -I../inc -L../lib/i686 -lflatcc -lmosquitto -lpthread
-gcc publisher.c -o ../bin/publisher -lzmq -I../inc -L../lib/i686 -lflatcc -lmosquitto -lpthread
+gcc subscriber.c -o ../bin/subscriber -lzmq -I../inc -L../lib/i686 -lflatcc -lmosquitto -lpthread  
+gcc publisher.c -o ../bin/publisher -lzmq -I../inc -L../lib/i686 -lflatcc -lmosquitto -lpthread  
