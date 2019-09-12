@@ -1,0 +1,8 @@
+namespace Test;
+
+table Car {
+    name: string;
+    model: string;
+    year: int;
+}
+root_type Car;
